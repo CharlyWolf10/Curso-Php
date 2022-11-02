@@ -27,7 +27,17 @@
             
         }
 
-        $edades = array();
+        $edades = array("Charly" => 34, "Mich" => 23, "OMar" => 32);
+
+        print_r($edades);
+
+        echo "<br>";
+        echo $edades ['Mich'];
+        echo "<br>";
+
+        foreach ($edades as $key => $value) {
+            echo $key . " tiene el valor de " . $value . "<br />";
+        }
     ?>
 </body>
 </html>
