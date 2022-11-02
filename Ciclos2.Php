@@ -17,7 +17,7 @@
         <?php
         
             while (rand(1,10)!= 5) {
-        ?> // rand asigna valores aleatorios 
+        ?> <!-- rand asigna valores aleatorios puede asignar cualquier valor-->
         <img src="php-logo.png" alt="">
         <?php
             }

@@ -14,7 +14,7 @@
 </head>
 <body>
     <?php
-    for($i=0; $i < 10; $i++){
+    for($i=0; $i < 100; $i++){
 
     ?>
         <img src="php-logo.png" alt="">
